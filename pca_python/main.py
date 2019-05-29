@@ -13,8 +13,8 @@ from absl import flags, app
 
 # flag
 FLAGS = flags.FLAGS
-flags.DEFINE_string("EUDT_txt", "F:/python_program/PCA/debug/eudt_list.txt", "EUDT list txt (include raw file path)")
-flags.DEFINE_string("outdir", "F:/python_program/PCA/debug/result", "output directory")
+flags.DEFINE_string("EUDT_txt", "", "EUDT list txt (include raw file path)")
+flags.DEFINE_string("outdir", "", "output directory")
 flags.DEFINE_string("svd_solver", "arpack", "type of svd_solver; [auto], [full], [arpack], [randomized]")
 flags.DEFINE_list("image_size", [256, 256, 476], "image size")
 
