@@ -93,7 +93,7 @@ namespace evaluation {
 		//	imageio.SetIndex(2, 0);
 		//	dataIO::check_folder(dirOut + "//specificity//");
 		//	imageio.Write(LSDM_out_label, dirOut + "//specificity//generate_" + std::to_string(j) + ".mhd", true);
-		//}
+		}
 
 		specificity /= (double)ngene;
 		std::cout << "specificity= " << specificity << std::endl;
